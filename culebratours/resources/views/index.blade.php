@@ -28,27 +28,21 @@
             <div class="topbar-search search-mobile">
                 <form class="search-form">
                     <div class="input-icon"><i class="btn-search fa fa-search"></i><input type="text" placeholder="Search here..." class="form-control"/></div>
-                </form>
+                </form>lstat
             </div>
         </div>
         <div class="header-main">
             <div class="menu-mobile">
                 <ul class="nav-links nav navbar-nav">
-                    <li class="dropdown"><a href="index.html" class="main-menu"><span class="text">Home</span></a><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span>
-                        <ul class="dropdown-menu dropdown-menu-1">
-                            <li><a href="index.html" class="link-page">Homepage default</a></li>
-                            <li><a href="homepage-02.html" class="link-page">Homepage 02</a></li>
-                            <li><a href="homepage-03.html" class="link-page">Homepage 03</a></li>
-                            <li><a href="homepage-04.html" class="link-page">Homepage 04</a></li>
-                        </ul>
+                    <li class="dropdown"><a href="index.html" class="main-menu"><span class="text">Home</span></a>
+                        
+                    </li>
+                    
+                    
+                    <li class="dropdown"><a href="tour-result.html" class="main-menu"><span class="text">Tour</span></a>
+                        
                     </li>
                     <li><a href="about-us.html" class="main-menu"><span class="text">about</span></a></li>
-                    <li class="dropdown"><a href="tour-result.html" class="main-menu"><span class="text">Tour</span></a><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span>
-                        <ul class="dropdown-menu dropdown-menu-1">
-                            <li><a href="tour-result.html" class="link-page">tour result</a></li>
-                            <li><a href="tour-view.html" class="link-page">tour view</a></li>
-                        </ul>
-                    </li>
                     <li class="dropdown"><a href="hotel-result.html" class="main-menu"><span class="text">packages</span></a><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span>
                         <ul class="dropdown-menu dropdown-menu-1">
                             <li><a href="hotel-result.html" class="link-page">hotel result</a></li>
@@ -79,101 +73,7 @@
     </div>
     <!-- WRAPPER CONTENT-->
     <div class="wrapper-content"><!-- HEADER-->
-        <header>
-            <div class="bg-transparent header-01">
-                <div class="header-topbar">
-                    <div class="container">
-                        <ul class="topbar-left list-unstyled list-inline pull-left">
-                            <li><a href="javascript:void(0)" class="country dropdown-text"><span>Country</span><i class="topbar-icon icons-dropdown fa fa-angle-down"></i></a>
-                                <ul class="dropdown-topbar list-unstyled hide">
-                                    <li><a href="#" class="link">Vietnam</a></li>
-                                    <li><a href="#" class="link">Japan</a></li>
-                                    <li><a href="#" class="link">Korea</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)" class="language dropdown-text"><span>English</span><i class="topbar-icon icons-dropdown fa fa-angle-down"></i></a>
-                                <ul class="dropdown-topbar list-unstyled hide">
-                                    <li><a href="#" class="link">Vietnam</a></li>
-                                    <li><a href="#" class="link">Japan</a></li>
-                                    <li><a href="#" class="link">Korea</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)" class="monney dropdown-text"><span>USD</span><i class="topbar-icon icons-dropdown fa fa-angle-down"></i></a>
-                                <ul class="dropdown-topbar list-unstyled hide">
-                                    <li><a href="#" class="link">VND</a></li>
-                                    <li><a href="#" class="link">Euro</a></li>
-                                    <li><a href="#" class="link">JPY</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="topbar-right pull-right list-unstyled list-inline login-widget">
-                            <li><a href="#" class="item">login</a></li>
-                            <li><a href="#" class="item">register</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header-main">
-                    <div class="container">
-                        <div class="header-main-wrapper">
-                            <div class="hamburger-menu">
-                                <div class="hamburger-menu-wrapper">
-                                    <div class="icons"></div>
-                                </div>
-                            </div>
-                            <div class="navbar-header">
-                                <div class="logo"><a href="index.html" class="header-logo"><img src="assets/images/logo/logo.png" alt=""/></a></div>
-                            </div>
-                            <nav class="navigation">
-                                <ul class="nav-links nav navbar-nav">
-                                    <li class="dropdown active"><a href="javascript:void(0)" class="main-menu"><span class="text">Home</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="index.html" class="link-page">Homepage default</a></li>
-                                            <li><a href="homepage-02.html" class="link-page">Homepage 02</a></li>
-                                            <li><a href="homepage-03.html" class="link-page">Homepage 03</a></li>
-                                            <li><a href="homepage-04.html" class="link-page">Homepage 04</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about-us.html" class="main-menu"><span class="text">about</span></a></li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Tour</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="tour-result.html" class="link-page">tour result</a></li>
-                                            <li><a href="tour-view.html" class="link-page">tour view</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">packages</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="hotel-result.html" class="link-page">hotel result</a></li>
-                                            <li><a href="hotel-view.html" class="link-page">hotel view</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">blog</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="blog.html" class="link-page">blog list</a></li>
-                                            <li><a href="blog-detail.html" class="link-page">blog detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">page</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="car-rent-result.html" class="link-page">car rent result</a></li>
-                                            <li><a href="cruises-result.html" class="link-page">cruises result</a></li>
-                                            <li><a href="404.html" class="link-page">page 404</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html" class="main-menu"><span class="text">contact</span></a></li>
-                                    <li class="button-search"><p class="main-menu"><i class="fa fa-search"></i></p></li>
-                                </ul>
-                                <div class="nav-search hide">
-                                    <form><input type="text" placeholder="Search" class="searchbox"/>
-                                        <button type="submit" class="searchbutton fa fa-search"></button>
-                                    </form>
-                                </div>
-                            </nav>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+      @include('layouts/header')
         <!-- WRAPPER-->
         <div id="wrapper-content"><!-- MAIN CONTENT-->
             <div class="main-content">
@@ -181,25 +81,25 @@
                     <div class="container">
                         <div class="homepage-banner-warpper">
                             <div class="homepage-banner-content">
-                                <div class="group-title"><h1 class="title">discover</h1>
+                                <div class="group-title"><h1 class="title">culebra</h1>
 
-                                    <p class="text">The world you have never seen <span class="boder"></span></p></div>
-                                <div class="group-btn"><a href="#" data-hover="CLICK ME" class="btn-click"><span class="text">go explore now</span><span class="icons fa fa-long-arrow-right"></span></a></div>
+                                    <p class="text">Discover the Caribbeans' Best Kept Secret<span class="boder"></span></p></div>
+                                <div class="group-btn"><a href="#searchpanels" data-hover="CLICK ME" class="btn-click"><span class="text">go explore now</span><span class="icons fa fa-long-arrow-right"></span></a></div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section>
+                <section >
                     <div class="tab-search tab-search-long tab-search-default">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-12">
                                     <ul role="tablist" class="nav nav-tabs">
-                                        <li role="presentation" class="tab-btn-wrapper active"><a href="#flight" aria-controls="flight" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-1"></i><span class="text">FLIGHT</span><span class="xs">FIND YOUR FLIGHT</span></a></li>
-                                        <li role="presentation" class="tab-btn-wrapper"><a href="#transfer" aria-controls="transfer" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-3"></i><span class="text">TRANSFER</span><span class="xs">FIND TRANSFER</span></a></li>
-                                        <li role="presentation" class="tab-btn-wrapper"><a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-three"></i><span class="text">HOTEL</span><span class="xs">FIND HOTEL</span></a></li>
-                                        <li role="presentation" class="tab-btn-wrapper"><a href="#tours" aria-controls="tours" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-people"></i><span class="text">TOURS</span><span class="xs">FIND TOURS</span></a></li>
-                                        <li role="presentation" class="tab-btn-wrapper"><a href="#car-rent" aria-controls="car-rent" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-7"></i><span class="text">CAR RENT</span><span class="xs">FIND CAR RENT</span></a></li>
+                                        <li role="presentation" class="tab-btn-wrapper"><a href="#flight" aria-controls="flight" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-1"></i><span class="text">FLIGHTS</span><span class="xs">FIND YOUR PACKAGE<br>Flights to Culebra Operated by Cape Air&reg;. Prices subject to change.</span></a></li>
+                                        <li role="presentation" class="tab-btn-wrapper"><a href="#transfer" aria-controls="transfer" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-3"></i><span class="text">ACCOMODATIONS</span><span class="xs">FIND a TOUR</span></a></li>
+                                        <li role="presentation" class="tab-btn-wrapper"><a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-three"></i><span class="text">TRANSPORTATION</span><span class="xs">FIND HOTEL</span></a></li>
+                                        <li role="presentation" class="tab-btn-wrapper ACTIVE"><a href="#tours" aria-controls="tours" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-people"></i><span class="text">PACKAGES</span><span class="xs">find a package</span></a></li>
+                                        <li role="presentation" class="tab-btn-wrapper"><a href="#car-rent" aria-controls="car-rent" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-7"></i><span class="text">TOURS/span><span class="xs">FIND CAR RENT</span></a></li>
                                         <li role="presentation" class="tab-btn-wrapper"><a href="#cruises" aria-controls="cruises" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-4"></i><span class="text">CRUISES</span><span class="xs">FIND CRUISES</span></a></li>
                                     </ul>
                                 </div>
@@ -210,7 +110,7 @@
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <div class="tab-content">
-                                            <div role="tabpanel" id="flight" class="tab-pane fade in active">
+                                            <div role="tabpanel" id="flight" class="tab-pane fade in">
                                                 <div class="find-widget find-flight-widget widget"><h4 class="title-widgets">FIND YOUR FLIGHT</h4>
 
                                                     <form class="content-widget">
@@ -371,8 +271,8 @@
                                                     </form>
                                                 </div>
                                             </div>
-                                            <div role="tabpanel" id="tours" class="tab-pane fade">
-                                                <div class="find-widget find-tours-widget widget"><h4 class="title-widgets">FIND TOURS</h4>
+                                            <div role="tabpanel" id="tours" class="tab-pane fade-in active">
+                                                <div class="find-widget find-tours-widget widget"><h4 class="title-widgets">FIND PACKAGES</h4>
 
                                                     <form class="content-widget">
                                                         <div class="text-input small-margin-top">
