@@ -46,8 +46,9 @@
                                 <ul class="nav-links nav navbar-nav">
                                         <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Packages</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                         <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="hotel-result.html" class="link-page">Total Experience</a></li>
-                                            <li><a href="hotel-view.html" class="link-page">Custom Experience</a></li>
+                                            <li><a href="hotel-result.html" class="link-page">5 Star Vacations</a></li>
+                                            <li><a href="hotel-view.html" class="link-page">A La Carte (Build your Own)</a></li>
+                                            <li><a href="404.html" class="link-page">All Packages</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Adventures</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
@@ -58,14 +59,16 @@
                                             <li><a href="blog-detail.html" class="link-page">Paddle Board</a></li>
                                             <li><a href="blog-detail.html" class="link-page">Wind Surfing</a></li>
                                             <li><a href="blog-detail.html" class="link-page">Kayaking</a></li>
+                                            <li><a href="404.html" class="link-page">All Adventures</a></li>
 
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Beaches</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Acommodations</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                         <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="car-rent-result.html" class="link-page">Playa Flamenco</a></li>
-                                            <li><a href="cruises-result.html" class="link-page">Punto del Soldado</a></li>
-                                            <li><a href="404.html" class="link-page">Bahia Linda (Datiles)</a></li>
+                                        <li><a href="car-rent-result.html" class="link-page">Hotels</a></li>
+                                            <li><a href="car-rent-result.html" class="link-page">AirBnB&reg;</a></li>
+                                            <li><a href="cruises-result.html" class="link-page">Direct Bookings</a></li>
+                                            <li><a href="404.html" class="link-page">All Accomodations</a></li>
 
                                         </ul>
                                     </li>
@@ -74,10 +77,11 @@
                                             <li><a href="car-rent-result.html" class="link-page">Metal Detecting</a></li>
                                             <li><a href="cruises-result.html" class="link-page">Wreck Diving</a></li>
                                             <li><a href="404.html" class="link-page">Whale Listening</a></li>
+                                            <li><a href="404.html" class="link-page">All Experiences</a></li>
 
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text"><span class="text">Guided Tours</span>><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text"><span class="text">Guided Tours</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                     <ul class="dropdown-menu dropdown-menu-1">
                                             <li><a href="car-rent-result.html" class="link-page">Culebrita Lighthouse</a></li>
                                             <li><a href="cruises-result.html" class="link-page">Cayo Luis Pena Lookout</a></li>

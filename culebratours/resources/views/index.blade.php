@@ -96,10 +96,10 @@
                                 <div class="col-xs-12">
                                     <ul role="tablist" class="nav nav-tabs">
                                         <li role="presentation" class="tab-btn-wrapper"><a href="#flight" aria-controls="flight" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-1"></i><span class="text">FLIGHTS</span><span class="xs">FIND YOUR PACKAGE<br>Flights to Culebra Operated by Cape Air&reg;. Prices subject to change.</span></a></li>
-                                        <li role="presentation" class="tab-btn-wrapper"><a href="#transfer" aria-controls="transfer" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-3"></i><span class="text">ACCOMODATIONS</span><span class="xs">FIND a TOUR</span></a></li>
-                                        <li role="presentation" class="tab-btn-wrapper"><a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-three"></i><span class="text">TRANSPORTATION</span><span class="xs">FIND HOTEL</span></a></li>
-                                        <li role="presentation" class="tab-btn-wrapper ACTIVE"><a href="#tours" aria-controls="tours" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-people"></i><span class="text">PACKAGES</span><span class="xs">find a package</span></a></li>
-                                        <li role="presentation" class="tab-btn-wrapper"><a href="#car-rent" aria-controls="car-rent" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-7"></i><span class="text">TOURS/span><span class="xs">FIND CAR RENT</span></a></li>
+                                        <li role="presentation" class="tab-btn-wrapper"><a href="#transfer" aria-controls="transfer" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-three"></i><span class="text">ACCOMODATIONS</span><span class="xs">FIND a TOUR</span></a></li>
+                                        <li role="presentation" class="tab-btn-wrapper"><a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-7"></i><span class="text">TRANSPORTATION</span><span class="xs">FIND HOTEL</span></a></li>
+                                        <li role="presentation" class="tab-btn-wrapper active"><a href="#tours" aria-controls="tours" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-people"></i><span class="text">PACKAGES</span><span class="xs">find a package</span></a></li>
+                                        <li role="presentation" class="tab-btn-wrapper"><a href="#car-rent" aria-controls="car-rent" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-7"></i><span class="text">TOURS</span><span class="xs">FIND CAR RENT</span></a></li>
                                         <li role="presentation" class="tab-btn-wrapper"><a href="#cruises" aria-controls="cruises" role="tab" data-toggle="tab" class="tab-btn"><i class="flaticon-transport-4"></i><span class="text">CRUISES</span><span class="xs">FIND CRUISES</span></a></li>
                                     </ul>
                                 </div>
@@ -421,6 +421,7 @@
                         </div>
                     </div>
                 </section>
+               <!--
                 <section class="about-us layout-1 padding-top padding-bottom">
                     <div class="container">
                         <div class="row">
@@ -453,12 +454,13 @@
                         </div>
                     </div>
                 </section>
+                -->
                 <section class="tours padding-top padding-bottom">
                     <div class="container">
                         <div class="tours-wrapper">
                             <div class="group-title">
                                 <div class="sub-title"><p class="text">PACK AND GO</p><i class="icons flaticon-people"></i></div>
-                                <h2 class="main-title">awesome tours</h2></div>
+                                <h2 class="main-title">5 star packages</h2></div>
                             <div class="tours-content margin-top70">
                                 <div class="tours-list">
                                     <div class="tours-layout">
@@ -532,28 +534,31 @@
                         </div>
                     </div>
                 </section>
-                <section class="videos layout-1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="video-wrapper padding-top padding-bottom"><h5 class="sub-title">it’s a <strong>big world</strong> out there</h5>
+                <section class="banner-sale-1">
+                    <div class="banner-left">
+                        <div class="title-box"><h1 class="title-overlay title-1 padding-top">Explore</h1>
 
-                                    <h2 class="title">go explore</h2>
+                            <h2 class="title-overlay title-2">Dream</h2>
 
-                                    <div class="text">There are many variations of passages of. Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look.</div>
-                                    <a href="tour-result.html" class="btn btn-maincolor">read more</a></div>
+                            <h3 class="title-overlay title-3 padding-bottom">Discover </h3></div>
+                    </div>
+                    <div class="banner-right">
+                        <div class="text-salebox">
+                            <div class="text-left">
+                                <div class="sale-box">
+                                    <div class="sale-box-top"><h2 class="number">50</h2><span class="sup-1">%</span><span class="sup-2">off</span></div>
+                                    <h2 class="text-sale">sale</h2></div>
                             </div>
-                            <div class="col-md-7">
-                                <div class="video-thumbnail">
-                                    <div class="video-bg"><img src="assets/images/homepage/video-bg.jpg" alt="" class="img-responsive"></div>
-                                    <div class="video-button-play"><i class="icons fa fa-play"></i></div>
-                                    <div class="video-button-close"></div>
-                                    <iframe src="https://www.youtube.com/embed/moOosWuoDyA?rel=0" allowfullscreen="allowfullscreen" class="video-embed"></iframe>
-                                </div>
+                            <div class="text-right"><h5 class="title">Epic Journeys From The Explooer</h5>
+
+                                <p class="text">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+
+                                <div class="group-button"><a href="tour-view.html" class="btn btn-maincolor">book now</a><a href="tour-view.html" class="btn btn-transparent">read more</a></div>
                             </div>
                         </div>
                     </div>
                 </section>
+                
                 <section class="hotels padding-top padding-bottom">
                     <div class="container">
                         <div class="hotels-wrapper">
@@ -706,6 +711,29 @@
                         </div>
                     </div>
                 </section>
+                <section class="videos layout-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="video-wrapper padding-top padding-bottom"><h5 class="sub-title">leave only <strong>footprints</strong> behind</h5>
+
+                                    <h2 class="title">go explore</h2>
+
+                                    <div class="text">Culebra is smal yet divers Caribbean island in the Spanish Virgin Islands (Puerto Rico). Culebra is commonly know as "La Ultima Virgen" and "Cuna del Sol", the Last Virgen and Cradle of the Sun.</div>
+                                    <a href="tour-result.html" class="btn btn-maincolor">read more</a></div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="video-thumbnail">
+                                    <div class="video-bg"><img src="assets/images/homepage/video-bg.jpg" alt="" class="img-responsive"></div>
+                                    <div class="video-button-play"><i class="icons fa fa-play"></i></div>
+                                    <div class="video-button-close"></div>
+                                    <iframe src="https://www.youtube.com/embed/moOosWuoDyA?rel=0" allowfullscreen="allowfullscreen" class="video-embed"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--
                 <section class="travelers">
                     <div class="container">
                         <div class="row">
@@ -848,30 +876,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="banner-sale-1">
-                    <div class="banner-left">
-                        <div class="title-box"><h1 class="title-overlay title-1 padding-top">Explore</h1>
-
-                            <h2 class="title-overlay title-2">Dream</h2>
-
-                            <h3 class="title-overlay title-3 padding-bottom">Discover </h3></div>
-                    </div>
-                    <div class="banner-right">
-                        <div class="text-salebox">
-                            <div class="text-left">
-                                <div class="sale-box">
-                                    <div class="sale-box-top"><h2 class="number">50</h2><span class="sup-1">%</span><span class="sup-2">off</span></div>
-                                    <h2 class="text-sale">sale</h2></div>
-                            </div>
-                            <div class="text-right"><h5 class="title">Epic Journeys From The Explooer</h5>
-
-                                <p class="text">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-
-                                <div class="group-button"><a href="tour-view.html" class="btn btn-maincolor">book now</a><a href="tour-view.html" class="btn btn-transparent">read more</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                
                 <section class="a-fact padding-top padding-bottom">
                     <div class="container">
                         <div class="row">
@@ -903,6 +908,7 @@
                         </div>
                     </div>
                 </section>
+                -->
                 <section class="contact style-1">
                     <div class="container">
                         <div class="row">
