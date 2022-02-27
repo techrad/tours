@@ -2,32 +2,15 @@
             <div class="bg-transparent header-01">
                 <div class="header-topbar">
                     <div class="container">
-                        <ul class="topbar-left list-unstyled list-inline pull-left">
-                            <li><a href="javascript:void(0)" class="country dropdown-text"><span>Country</span><i class="topbar-icon icons-dropdown fa fa-angle-down"></i></a>
-                                <ul class="dropdown-topbar list-unstyled hide">
-                                    <li><a href="#" class="link">Vietnam</a></li>
-                                    <li><a href="#" class="link">Japan</a></li>
-                                    <li><a href="#" class="link">Korea</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)" class="language dropdown-text"><span>English</span><i class="topbar-icon icons-dropdown fa fa-angle-down"></i></a>
-                                <ul class="dropdown-topbar list-unstyled hide">
-                                    <li><a href="#" class="link">Spanish</a></li>
-                                    <li><a href="#" class="link">French</a></li>
-                                    <li><a href="#" class="link">English</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)" class="monney dropdown-text"><span>USD</span><i class="topbar-icon icons-dropdown fa fa-angle-down"></i></a>
-                                <ul class="dropdown-topbar list-unstyled hide">
-                                    <li><a href="#" class="link">VND</a></li>
-                                    <li><a href="#" class="link">Euro</a></li>
-                                    <li><a href="#" class="link">JPY</a></li>
-                                </ul>
+                        
+                    <ul class="topbar-left list-unstyled list-inline pull-left">
+                            <li><a href="javascript:void(0)" class="country dropdown-text"><span>Tour Operators & Tour Agencies </span></a>
                             </li>
                         </ul>
+                    
                         <ul class="topbar-right pull-right list-unstyled list-inline login-widget">
-                            <li><a href="#" class="item">login</a></li>
-                            <li><a href="#" class="item">register</a></li>
+                            <li><a href="./login" class="item">login</a></li>
+                            <li><a href="./register" class="item">register</a></li>
                         </ul>
                     </div>
                 </div>
@@ -44,14 +27,14 @@
                             </div>
                             <nav class="navigation">
                                 <ul class="nav-links nav navbar-nav">
-                                        <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Packages</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                        <li class="dropdown"><a href="./tours" class="main-menu"><span class="text">Packages</span></a><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                         <ul class="dropdown-menu dropdown-menu-1">
                                             <li><a href="hotel-result.html" class="link-page">5 Star Vacations</a></li>
                                             <li><a href="hotel-view.html" class="link-page">A La Carte (Build your Own)</a></li>
-                                            <li><a href="404.html" class="link-page">All Packages</a></li>
+                                            <li><a href="./tours" class="link-page">All Packages</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Adventures</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                    <li class="dropdown"><a href="./tours" class="main-menu"><span class="text">Adventures</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                         <ul class="dropdown-menu dropdown-menu-1">
                                             <li><a href="blog.html" class="link-page">Snorkeling</a></li>
                                             <li><a href="blog-detail.html" class="link-page">Diving</a></li>
@@ -63,7 +46,7 @@
 
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Acommodations</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                    <li class="dropdown"><a href="./hotels" class="main-menu"><span class="text">Acommodations</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                         <ul class="dropdown-menu dropdown-menu-1">
                                         <li><a href="car-rent-result.html" class="link-page">Hotels</a></li>
                                             <li><a href="car-rent-result.html" class="link-page">AirBnB&reg;</a></li>
@@ -72,7 +55,7 @@
 
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Experiences</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                    <li class="dropdown"><a href="./tours" class="main-menu"><span class="text">Experiences</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                         <ul class="dropdown-menu dropdown-menu-1">
                                             <li><a href="car-rent-result.html" class="link-page">Metal Detecting</a></li>
                                             <li><a href="cruises-result.html" class="link-page">Wreck Diving</a></li>
@@ -81,12 +64,13 @@
 
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text"><span class="text">Guided Tours</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text"><span class="text">Local Attractions</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                     <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="car-rent-result.html" class="link-page">Culebrita Lighthouse</a></li>
-                                            <li><a href="cruises-result.html" class="link-page">Cayo Luis Pena Lookout</a></li>
-                                            <li><a href="404.html" class="link-page">Turtles @ Tamarindo</a></li>
-
+                                            <li><a href="car-rent-result.html" class="link-page">Restaurants</a></li>
+                                            <li><a href="cruises-result.html" class="link-page">Coffee & Lunch</a></li>
+                                            <li><a href="404.html" class="link-page">Bars & Nightlife</a></li>
+                                            <li><a href="404.html" class="link-page">Souvenirs & Crafts</a></li>
+                                            <li><a href="404.html" class="link-page">All Attractions</a></li>
                                         </ul>
                                 </li>
                                     <li class="button-search"><p class="main-menu"><i class="fa fa-search"></i></p></li>

@@ -8,17 +8,17 @@
 </head>
 <body>
     <!-- Mobile Header -->
-        @include('layouts/mobile-header')
+        @yield('layouts/mobile-header')
     <!-- WRAPPER CONTENT-->
     <div class="wrapper-content">
         
     <!-- HEADER-->
-      @include('layouts/header')
+      @yield('layouts/header')
         <!-- WRAPPER-->
         <div id="wrapper-content"><!-- MAIN CONTENT-->
             <div class="main-content">
             <!-- Hone Page Banner -->    
-               @include('layouts/page-banner')
+               @yield('layouts/page-banner')
                 <section >
                     <div class="tab-search tab-search-long tab-search-default">
                         <div class="container">
@@ -385,66 +385,9 @@
                     </div>
                 </section>
                 -->
-                <section class="tours padding-bottom padding-top">
+                <section class="tours padding-top padding-bottom">
                     <div class="container">
-                    <div class="group-title">
-                                <div class="sub-title"><p class="text">Leave Only FOOTSTEPS</p><i class="icons flaticon-people"></i></div>
-                                <h2>DISCOVER CULEBRA</h2>
-                    </div>
-
-<div class="special-offer-list">
-    <div class="special-offer-layout">
-        <div class="image-wrapper"><a href="tour-view.html" class="link"><img src="assets/images/footer/offer-1.jpg" alt="" class="img-responsive"></a>
-
-            <div class="title-wrapper"><a href="tour-view.html" class="title">alpha</a><i class="icons flaticon-circle"></i></div>
-        </div>
-    </div>
-    <div class="special-offer-layout">
-        <div class="image-wrapper"><a href="tour-view.html" class="link"><img src="assets/images/footer/offer-2.jpg" alt="" class="img-responsive"></a>
-
-            <div class="title-wrapper"><a href="tour-view.html" class="title">otipus</a><i class="icons flaticon-circle"></i></div>
-        </div>
-    </div>
-    <div class="special-offer-layout">
-        <div class="image-wrapper"><a href="tour-view.html" class="link"><img src="assets/images/footer/offer-3.jpg" alt="" class="img-responsive"></a>
-
-            <div class="title-wrapper"><a href="tour-view.html" class="title">sunrise</a><i class="icons flaticon-circle"></i></div>
-        </div>
-    </div>
-    <div class="special-offer-layout">
-        <div class="image-wrapper"><a href="tour-view.html" class="link"><img src="assets/images/footer/offer-4.jpg" alt="" class="img-responsive"></a>
-
-            <div class="title-wrapper"><a href="tour-view.html" class="title">carisbean</a><i class="icons flaticon-circle"></i></div>
-        </div>
-    </div>
-    <div class="special-offer-layout">
-        <div class="image-wrapper"><a href="tour-view.html" class="link"><img src="assets/images/footer/offer-1.jpg" alt="" class="img-responsive"></a>
-
-            <div class="title-wrapper"><a href="tour-view.html" class="title">alpha</a><i class="icons flaticon-circle"></i></div>
-        </div>
-    </div>
-    <div class="special-offer-layout">
-        <div class="image-wrapper"><a href="tour-view.html" class="link"><img src="assets/images/footer/offer-2.jpg" alt="" class="img-responsive"></a>
-
-            <div class="title-wrapper"><a href="tour-view.html" class="title">otipus</a><i class="icons flaticon-circle"></i></div>
-        </div>
-    </div>
-    <div class="special-offer-layout">
-        <div class="image-wrapper"><a href="tour-view.html" class="link"><img src="assets/images/footer/offer-3.jpg" alt="" class="img-responsive"></a>
-
-            <div class="title-wrapper"><a href="tour-view.html" class="title">sunrise</a><i class="icons flaticon-circle"></i></div>
-        </div>
-    </div>
-    <div class="special-offer-layout">
-        <div class="image-wrapper"><a href="tour-view.html" class="link"><img src="assets/images/footer/offer-4.jpg" alt="" class="img-responsive"></a>
-
-            <div class="title-wrapper"><a href="tour-view.html" class="title">carisbean</a><i class="icons flaticon-circle"></i></div>
-        </div>
-    </div>
-</div>
-   
-                       
-                    <div class="tours-wrapper">
+                        <div class="tours-wrapper">
                             <div class="group-title">
                                 <div class="sub-title"><p class="text">PACK AND GO</p><i class="icons flaticon-people"></i></div>
                                 <h2 class="main-title">5 star packages</h2></div>
