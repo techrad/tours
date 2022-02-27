@@ -1,257 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><title>Exploore | Tour Result</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- FONT CSS-->
-    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
-    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-awesome/css/font-awesome.css">
-    <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-flaticon/flaticon.css">
-    <!-- LIBRARY CSS-->
-    <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="assets/libs/animate/animate.css">
-    <link type="text/css" rel="stylesheet" href="assets/libs/slick-slider/slick.css">
-    <link type="text/css" rel="stylesheet" href="assets/libs/slick-slider/slick-theme.css">
-    <link type="text/css" rel="stylesheet" href="assets/libs/selectbox/css/jquery.selectbox.css">
-    <link type="text/css" rel="stylesheet" href="assets/libs/please-wait/please-wait.css">
-    <!-- STYLE CSS-->
-    <link type="text/css" rel="stylesheet" href="assets/css/layout.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/components.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
-    <link type="text/css" rel="stylesheet" href="assets/libs/nst-slider/css/jquery.nstSlider.min.css">
-    <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+    @extends('layouts/metas')
 </head>
 <body>
 <div class="body-wrapper"><!-- MENU MOBILE-->
-    <div class="wrapper-mobile-nav">
-        <div class="header-topbar">
-            <div class="topbar-search search-mobile">
-                <form class="search-form">
-                    <div class="input-icon"><i class="btn-search fa fa-search"></i><input type="text" placeholder="Search here..." class="form-control"/></div>
-                </form>
-            </div>
-        </div>
-        <div class="header-main">
-            <div class="menu-mobile">
-                <ul class="nav-links nav navbar-nav">
-                    <li class="dropdown"><a href="index.html" class="main-menu"><span class="text">Home</span></a><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span>
-                        <ul class="dropdown-menu dropdown-menu-1">
-                            <li><a href="index.html" class="link-page">Homepage default</a></li>
-                            <li><a href="homepage-02.html" class="link-page">Homepage 02</a></li>
-                            <li><a href="homepage-03.html" class="link-page">Homepage 03</a></li>
-                            <li><a href="homepage-04.html" class="link-page">Homepage 04</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="about-us.html" class="main-menu"><span class="text">about</span></a></li>
-                    <li class="dropdown"><a href="tour-result.html" class="main-menu"><span class="text">Tour</span></a><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span>
-                        <ul class="dropdown-menu dropdown-menu-1">
-                            <li><a href="tour-result.html" class="link-page">tour result</a></li>
-                            <li><a href="tour-view.html" class="link-page">tour view</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="hotel-result.html" class="main-menu"><span class="text">packages</span></a><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span>
-                        <ul class="dropdown-menu dropdown-menu-1">
-                            <li><a href="hotel-result.html" class="link-page">hotel result</a></li>
-                            <li><a href="hotel-view.html" class="link-page">hotel view</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="blog.html" class="main-menu"><span class="text">blog</span></a><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span>
-                        <ul class="dropdown-menu dropdown-menu-1">
-                            <li><a href="blog.html" class="link-page">blog list</a></li>
-                            <li><a href="blog-detail.html" class="link-page">blog detail</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="car-rent-result.html" class="main-menu"><span class="text">page</span></a><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span>
-                        <ul class="dropdown-menu dropdown-menu-1">
-                            <li><a href="car-rent-result.html" class="link-page">car rent result</a></li>
-                            <li><a href="cruises-result.html" class="link-page">cruises result</a></li>
-                            <li><a href="404.html" class="link-page">page 404</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html" class="main-menu"><span class="text">contact</span></a></li>
-                </ul>
-                <ul class="list-unstyled list-inline login-widget">
-                    <li><a href="#" class="item">login</a></li>
-                    <li><a href="#" class="item">register</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    @include('layouts/mobile-header')
     <!-- WRAPPER CONTENT-->
     <div class="wrapper-content"><!-- HEADER-->
-        <header>
-            <div class="bg-transparent">
-                <div class="header-topbar">
-                    <div class="container">
-                        <ul class="topbar-left list-unstyled pull-left">
-                            <li><a href="javascript:void(0)" class="country dropdown-text"><span>Country</span><i class="topbar-icon icons-dropdown fa fa-angle-down"></i></a>
-                                <ul class="dropdown-topbar list-unstyled hide">
-                                    <li><a href="#" class="link">Vietnam</a></li>
-                                    <li><a href="#" class="link">Japan</a></li>
-                                    <li><a href="#" class="link">Korea</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)" class="language dropdown-text"><span>English</span><i class="topbar-icon icons-dropdown fa fa-angle-down"></i></a>
-                                <ul class="dropdown-topbar list-unstyled hide">
-                                    <li><a href="#" class="link">Vietnam</a></li>
-                                    <li><a href="#" class="link">Japan</a></li>
-                                    <li><a href="#" class="link">Korea</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)" class="monney dropdown-text"><span>USD</span><i class="topbar-icon icons-dropdown fa fa-angle-down"></i></a>
-                                <ul class="dropdown-topbar list-unstyled hide">
-                                    <li><a href="#" class="link">VND</a></li>
-                                    <li><a href="#" class="link">Euro</a></li>
-                                    <li><a href="#" class="link">JPY</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="topbar-right pull-right list-unstyled list-inline login-widget">
-                            <li><a href="#" class="item">login</a></li>
-                            <li><a href="#" class="item">register</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header-main">
-                    <div class="container">
-                        <div class="header-main-wrapper">
-                            <div class="hamburger-menu">
-                                <div class="hamburger-menu-wrapper">
-                                    <div class="icons"></div>
-                                </div>
-                            </div>
-                            <div class="navbar-header">
-                                <div class="logo"><a href="index.html" class="header-logo"><img src="assets/images/logo/logo.png" alt=""/></a></div>
-                            </div>
-                            <nav class="navigation">
-                                <ul class="nav-links nav navbar-nav">
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">Home</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="index.html" class="link-page">Homepage default</a></li>
-                                            <li><a href="homepage-02.html" class="link-page">Homepage 02</a></li>
-                                            <li><a href="homepage-03.html" class="link-page">Homepage 03</a></li>
-                                            <li><a href="homepage-04.html" class="link-page">Homepage 04</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about-us.html" class="main-menu"><span class="text">about</span></a></li>
-                                    <li class="dropdown active"><a href="javascript:void(0)" class="main-menu"><span class="text">Tour</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="tour-result.html" class="link-page">tour result</a></li>
-                                            <li><a href="tour-view.html" class="link-page">tour view</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">packages</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="hotel-result.html" class="link-page">hotel result</a></li>
-                                            <li><a href="hotel-view.html" class="link-page">hotel view</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">blog</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="blog.html" class="link-page">blog list</a></li>
-                                            <li><a href="blog-detail.html" class="link-page">blog detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="javascript:void(0)" class="main-menu"><span class="text">page</span><span class="icons-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-1">
-                                            <li><a href="car-rent-result.html" class="link-page">car rent result</a></li>
-                                            <li><a href="cruises-result.html" class="link-page">cruises result</a></li>
-                                            <li><a href="404.html" class="link-page">page 404</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html" class="main-menu"><span class="text">contact</span></a></li>
-                                    <li class="button-search"><p class="main-menu"><i class="fa fa-search"></i></p></li>
-                                </ul>
-                                <div class="nav-search hide">
-                                    <form><input type="text" placeholder="Search" class="searchbox"/>
-                                        <button type="submit" class="searchbutton fa fa-search"></button>
-                                    </form>
-                                </div>
-                            </nav>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+        @include('layouts/header')
         <!-- WRAPPER-->
         <div id="wrapper-content"><!-- MAIN CONTENT-->
             <div class="main-content">
-                <section class="page-banner tour-result">
+                <section class="page-banner packages-result">
                     <div class="container">
                         <div class="page-title-wrapper">
                             <div class="page-title-content">
                                 <ol class="breadcrumb">
                                     <li><a href="index.html" class="link home">Home</a></li>
-                                    <li class="active"><a href="#" class="link">Tour</a></li>
+                                    <li class="active"><a href="#" class="link">Holiday Adventures</a></li>
                                 </ol>
                                 <div class="clearfix"></div>
-                                <h2 class="captions">Tour</h2></div>
+                                <h2 class="captions">Vacation Packages</h2></div>
                         </div>
                     </div>
                 </section>
                 <div class="page-main">
-                    <div class="trip-info">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="label-route-widget"><span class="departure"><span class="city">Singapore, </span><span class="country">Singapore</span></span><i class="fa fa-long-arrow-right"></i><span class="arrival"><span class="city">Kuala Lumpur, </span><span class="country">Malaysia</span></span></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="label-time-widget">From <span class="departure"><span class="date">6 March </span>at <span class="hour">10:00</span></span> to <span class="arrival"><span class="date">9 March </span>at <span class="hour">10:00</span></span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
+                    
                     <div class="tour-result-main padding-top padding-bottom">
                         <div class="container">
-                            <div class="list-continents">
+                           <!-- <div class="list-continents">
                                 <div class="list-continent-wrapper"><a href="#" class="continent"><i class="icons fa fa-map-marker"></i><span class="text">europe</span></a></div>
                                 <div class="list-continent-wrapper"><a href="#" class="continent"><i class="icons fa fa-map-marker"></i><span class="text">america</span></a></div>
                                 <div class="list-continent-wrapper"><a href="#" class="continent"><i class="icons fa fa-map-marker"></i><span class="text">asian</span></a></div>
                                 <div class="list-continent-wrapper"><a href="#" class="continent"><i class="icons fa fa-map-marker"></i><span class="text">africa</span></a></div>
                                 <div class="list-continent-wrapper"><a href="#" class="continent"><i class="icons fa fa-map-marker"></i><span class="text">middle east</span></a></div>
-                            </div>
-                            <div class="result-meta">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-12">
-                                        <div class="result-count-wrapper">Results Found: <span class="result-count">132</span></div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-12">
-                                        <div class="result-filter-wrapper">
-                                            <form><label class="result-filter-label">Sort by :</label>
-
-                                                <div class="selection-bar">
-                                                    <div class="select-wrapper"><select name="Recommended" class="custom-select selectbox">
-                                                        <option value="" disabled="disabled" selected="selected" hidden="hidden">Recommended</option>
-                                                        <option value="1">Recommended 1</option>
-                                                        <option value="2">Recommended 2</option>
-                                                    </select></div>
-                                                    <div class="select-wrapper"><select name="Shortest" class="custom-select selectbox">
-                                                        <option value="" disabled="disabled" selected="selected" hidden="hidden">deals</option>
-                                                        <option value="1">deal 1</option>
-                                                        <option value="2">deal 2</option>
-                                                    </select></div>
-                                                    <div class="select-wrapper"><select name="Nearby airport" class="custom-select selectbox"><!--option(value="" disabled selected hidden) price-->
-                                                        <option value="expensive">expensive</option>
-                                                        <option value="cheap">cheap</option>
-                                                    </select></div>
-                                                    <div class="select-wrapper"><select name="Time" class="custom-select selectbox">
-                                                        <option value="" disabled="disabled" selected="selected" hidden="hidden">review score</option>
-                                                        <option value="5">5 stars</option>
-                                                        <option value="4">4 stars</option>
-                                                        <option value="3">3 stars</option>
-                                                        <option value="2">2 stars</option>
-                                                        <option value="1">1 stars</option>
-                                                    </select></div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            </div> -->
+                            
                             <div class="result-body">
                                 <div class="row">
                                     <div class="col-md-8 main-right">

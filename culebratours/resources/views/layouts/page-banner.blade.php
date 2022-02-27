@@ -8,5 +8,6 @@
                                 <div class="group-btn"><a href="#searchpanels" data-hover="CLICK ME" class="btn-click"><span class="text">go explore now</span><span class="icons fa fa-long-arrow-right"></span></a></div>
                             </div>
                         </div>
+                        
                     </div>
                 </section>

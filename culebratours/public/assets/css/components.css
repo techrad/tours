@@ -1808,7 +1808,7 @@
   background: linear-gradient(to right, #ffffff 0%, #ffffff 15%, #ffffff 35%, #ffffff 50%, #ffffff 85%, #ffdd00 90%, #ffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: color-text 5s infinite;
+  -webkit-animation: color-text 3s infinite;
 }
 .homepage-default .group-title {
   display: inline-block;

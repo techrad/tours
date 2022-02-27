@@ -369,6 +369,10 @@ a:hover {
 .hotel-result {
   background-image: url('../images/background/hotel-result.jpg');
 }
+.packages-result {
+  background-image: url('../images/background/packages-result.jpg');
+}
+
 .cruises-result {
   background-image: url('../images/background/cruises-result.jpg');
 }
