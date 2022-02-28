@@ -9,8 +9,14 @@
                         </ul>
                     
                         <ul class="topbar-right pull-right list-unstyled list-inline login-widget">
+                            @guest
                             <li><a href="./login" class="item">login</a></li>
                             <li><a href="./register" class="item">register</a></li>
+                            @endguest
+                            @auth
+                            <li><a href="./login" class="item"> <i class="fa a-free-code-camp" ></i></a></li>
+                            <li><a href="./register" class="item">register</a></li>
+                            @endauth
                         </ul>
                     </div>
                 </div>

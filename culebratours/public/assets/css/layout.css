@@ -370,7 +370,7 @@ a:hover {
   background-image: url('../images/background/hotel-result.jpg');
 }
 .packages-result {
-  background-image: url('../images/background/packages-result.jpg');
+  background-image: url('../images/background/-result.jpg');
 }
 
 .cruises-result {
@@ -1024,7 +1024,7 @@ a:hover {
 }
 .bg-white .navigation .nav-links li.active .main-menu,
 .bg-white .navigation .nav-links li:hover .main-menu {
-  color: #ffdd00 !important;
+  color: #28d8cf !important;
 }
 .dropdown-menu-1,
 .dropdown-menu-2 {
