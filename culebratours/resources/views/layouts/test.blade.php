@@ -35,17 +35,12 @@ $data = new Redis();
 
 Redis::set(
     'name', 'Taylor'
-);
-Redis::flushall();
-Redis::lpush("tutorial-list", "Redis");
-Redis::lpush("tutorial-list", "Mongo");
-Redis::set(
-    'key', '1234'
-);
-$values = Redis::lrange('tutorial-list', 0, 100);
 
+);
+ 
+$values = Redis::lrange('names', 5, 10);
+$values = $redis->keys('*');
 print_r($values);
-
 @endphp
 
 

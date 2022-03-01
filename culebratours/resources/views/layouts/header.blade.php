@@ -14,7 +14,7 @@
                             <li><a href="./register" class="item">register</a></li>
                             @endguest
                             @auth
-                            <li><a href="./login" class="item"> <i class="fa a-free-code-camp" ></i></a></li>
+                            <li><a href="./login" class="item"> <i class="fa fa-user"></i></a></li>
                             <li><a href="./register" class="item">register</a></li>
                             @endauth
                         </ul>
